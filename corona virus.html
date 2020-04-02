@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>corona virus test</title>
+	<link rel="stylesheet" type="text/css" href="coranasiting.css">
+</head>
+<script type="text/javascript">
+	function verif(){
+		if((t1.checked)||(t5.checked)||(t7.checked)){
+			alert("il faut consulter un medecin ");
+		}
+		else{
+			alert("Vous êtes en bonne santé mais je vous conseille de rester à la maison");
+		}
+	}
+</script>
+<body>
+<h1>Symptômes de la corona</h1>
+<p id="p1">Marquez vos symptômes Si elle trouve:</p>
+<ol>
+<li id="l1"><input type="checkbox" name="ch1" value="1" id="t1">la fièvre</li>
+<li id="l2"><input type="checkbox" name="ch2" value="2" id="t2"> la fatigue et une toux sèche</li>
+<li id="l3"><input type="checkbox" name="ch3" value="3" id="t3">des douleurs</li>
+<li id="l4"><input type="checkbox" name="ch4" value="4" id="t4">une congestion nasale</li>
+<li id="l5"><input type="checkbox" name="ch5" value="5" id="t5">un écoulement nasal</li>
+<li id="l6"><input type="checkbox" name="ch6" value="6" id="t6">des maux de gorge ou une diarrhée</li>
+<li id="l7"><input type="checkbox" name="ch7" value="7" id="t7">difficultés à respirer</li>
+
+</ol>
+<input type="submit" name="B1" onclick="verif()" value="Valider" id="v">
+<u style="color: purple;"><h2>RMQ Tres important!!:</h2></u>
+<p id="p2">
+  Ces symptômes sont généralement bénins et apparaissent de manière progressive. Certaines personnes, bien qu’infectées, ne présentent aucun symptôme et se sentent bien. La plupart (environ 80 %) des personnes guérissent sans avoir besoin de traitement particulier. Environ une personne sur six contractant la maladie présente des symptômes plus graves, notamment une dyspnée. Les personnes âgées et celles qui ont d’autres problèmes de santé (hypertension artérielle, problèmes cardiaques ou diabète) ont plus de risques de présenter des symptômes graves.
+</p>
+<div>Corona Virus Test &copy; Copyright</div>
+
+</body>
+</html>
